@@ -1,0 +1,7 @@
+---
+
+- hosts: mac
+  vars_files:
+    - roles/vars/main.yml
+  roles:
+    - setup

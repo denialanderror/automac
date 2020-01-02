@@ -1,0 +1,19 @@
+# IntelliJ
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Java
+target/
+
+# MacOS
+.DS_Store
+
+# Python
+*.ipynb
+__pycache__/
+.ipynb_checkpoints/
+venv/
+*.pyc

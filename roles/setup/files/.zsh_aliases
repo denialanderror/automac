@@ -1,0 +1,29 @@
+# git aliases
+alias gcano='git commit -a --amend --no-edit'
+alias gcam='git commit -a -m'
+alias gfu='git commit --all --amend --no-edit && git push --force-with-lease'
+alias gcb='git checkout -b'
+alias gcom='git checkout master'
+alias gpu='git push -u'
+alias grh='git reset --hard'
+alias grom='git rebase origin/master'
+alias gst='git status'
+
+# selectively taken from OMZ's common aliases
+alias zshrc='${=EDITOR} ~/.zshrc'
+alias la='ls -FaG'
+alias ll='ls -FlhG'
+
+# Make zsh know about hosts already accessed by SSH
+zstyle -e ':completion:*:(ssh|scp|sftp|rsh|rsync):hosts' hosts 'reply=(${=${${(f)"$(cat {/etc/ssh_,~/.ssh/known_}hosts(|2)(N) /dev/null)"}%%[# ]*}//,/ })'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias cat=bat
+alias config='/usr/bin/git --git-dir=/Users/samjoseph/.cfg/ --work-tree=/Users/samjoseph'
+alias mkdir='mkdir -p'
+alias myip='curl ipecho.net/plain ; echo'
+alias ping='prettyping --nolegend'
+alias run-help=man
+alias which-command=whence

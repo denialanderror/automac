@@ -1,0 +1,16 @@
+---
+- name: link dotfiles
+  file:
+    - src: {{ item }}
+    - dest: ~/{{ item }}
+    - state: link
+  loop:
+    - .zshrc 
+    - .zsh_aliases
+
+# antibody static loading: https://getantibody.github.io/usage/
+- name: static loading from plugins.txt
+  command: antibody bundle < zsh_plugins.txt > ~/.zsh_plugins
+
+- name: Change login shell
+  command: chsh -s /usr/local/bin/zsh

@@ -1,0 +1,26 @@
+---
+
+homebrew:
+  packages:
+    - ansible
+    - antibody
+    - bat
+    - git
+    - httpie
+    - jq
+    - denisidoro/tools/navi
+    - node
+    - nvm
+    - prettyping
+    - python
+    - thefuck
+    - tldr
+    - tree
+    - yarn
+    - zsh
+  casks:
+    - caskroom/cask
+    - homebrew/cask-fonts
+  applications:
+    - font-fira-code
+# cask applications

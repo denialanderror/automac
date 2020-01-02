@@ -1,0 +1,15 @@
+cal2195/q 
+djui/alias-tips
+Tarrasch/zsh-bd
+tysonwolker/iterm-tab-colors
+
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-completions
+
+robbyrussell/oh-my-zsh path:plugins/thefuck
+
+zdharma/history-search-multi-word
+zsh-users/zsh-syntax-highlighting
+
+denysdovhan/spaceship-prompt
+

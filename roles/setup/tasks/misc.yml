@@ -1,0 +1,8 @@
+---
+# miscellaneous configuration
+
+- name: link git dotfiles
+  file:
+    src: .gitignore_global
+    dest: ~/.gitignore_global
+    state: link
