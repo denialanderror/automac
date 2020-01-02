@@ -21,7 +21,6 @@ zstyle :plugin:history-search-multi-word reset-prompt-protect 1
 export VISUAL=vim
 export EDITOR="$VISUAL"
 bindkey "[3~" delete-char
-bindkey "^R" history-search-multi-word
 set -o vi
 bindkey -v
 
@@ -43,9 +42,6 @@ SPACESHIP_VI_MODE_INSERT=
 source "$(navi widget zsh)"
 
 eval $(thefuck --alias)
-
-# TODO:
-# - missing a ton of aliases
 
 ###################
 # Application-specific config. Move to new file?
