@@ -32,3 +32,4 @@
   homebrew_cask:
     name: "{{ homebrew.applications }}"
     state: present
+    accept_external_apps: yes

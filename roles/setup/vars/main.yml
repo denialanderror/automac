@@ -3,11 +3,15 @@
 homebrew:
   packages:
     - ansible
+    - awscli
     - antibody
     - bat
     - git
     - httpie
     - jq
+    - kubectl
+    - maven
+    - minikube
     - denisidoro/tools/navi
     - node
     - nvm
@@ -21,6 +25,15 @@ homebrew:
   casks:
     - caskroom/cask
     - homebrew/cask-fonts
+    - homebrew/cask-versions
   applications:
+    - copyclip
+    - dashlane
+    - docker
+    - firefox
     - font-fira-code
-# cask applications
+    - iterm2
+    - java
+    - jetbrains-toolbox
+    - slack
+    - visual-studio-code

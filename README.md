@@ -2,6 +2,14 @@
 
 An Ansible playbook to initialise, configure, and update my ideal MacOS dev environment.
 
+To run:
+------
+```
+$ sudo easy_install pip
+$ sudo pip install ansible
+$ ansible-playbook playbook.yml
+```
+
 This does the following:
 - Bundle ZSH plugins for static loading by Antibody
 - Symlink ZSH dotfiles to home
