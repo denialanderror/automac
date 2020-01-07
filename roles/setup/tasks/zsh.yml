@@ -1,9 +1,10 @@
 ---
+
 - name: link dotfiles
   file:
-    - src: {{ item }}
-    - dest: ~/{{ item }}
-    - state: link
+    src: "{{ item }}"
+    dest: "~/{{ item }}"
+    state: link
   loop:
     - .zshrc 
     - .zsh_aliases

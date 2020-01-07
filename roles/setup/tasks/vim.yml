@@ -1,10 +1,11 @@
 ---
+
 - name: link vimrc
   file:
-    - src: .vimrc
-    - dest: ~/.vimrc
-    - state: link
+    src: ".vimrc"
+    dest: "~/.vimrc"
+    state: link
 
 # install/update vim plugins using custom script and Vim's native plugin management
 - name: run vim plugin script
-  script: vim-plug-man.sh
+  script: "vim-plug-man.sh"
