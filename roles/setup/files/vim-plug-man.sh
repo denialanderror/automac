@@ -25,7 +25,6 @@ function package () {
 set_group general
 package https://github.com/tpope/vim-sensible &
 package https://github.com/itchyny/lightline.vim &
-package https://github.com/mhinz/vim-signify &
 wait
 ) &
 

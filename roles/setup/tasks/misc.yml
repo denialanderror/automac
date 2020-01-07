@@ -3,6 +3,8 @@
 
 - name: link git dotfiles
   file:
-    src: .gitignore_global
-    dest: ~/.gitignore_global
+    src: ".gitignore_global"
+    dest: "$HOME/.gitignore_global"
     state: link
+    force: yes
+    follow: false

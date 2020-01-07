@@ -1,8 +1,8 @@
-- name: configure zsh
-  import_tasks: zsh.yml
-
 - name: homebrew and application installs
   import_tasks: homebrew.yml
+
+- name: configure zsh
+  import_tasks: zsh.yml
 
 - name: configure vim and install plugins
   import_tasks: vim.yml

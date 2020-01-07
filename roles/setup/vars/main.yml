@@ -12,7 +12,7 @@ homebrew:
     - kubectl
     - maven
     - minikube
-    - denisidoro/tools/navi
+    - navi
     - node
     - nvm
     - prettyping
@@ -23,17 +23,17 @@ homebrew:
     - yarn
     - zsh
   casks:
-    - caskroom/cask
     - homebrew/cask-fonts
     - homebrew/cask-versions
   applications:
+    - adoptopenjdk
+    - adoptopenjdk8 
     - copyclip
     - dashlane
     - docker
     - firefox
     - font-fira-code
     - iterm2
-    - java
     - jetbrains-toolbox
     - slack
     - visual-studio-code

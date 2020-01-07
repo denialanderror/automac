@@ -8,9 +8,7 @@
 
 - name: install homebrew
   when: not homebrew_check.stat.exists
-  shell: 'yes | /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"' 
-  args:
-    creates: "/usr/local/bin/brew"
+  script: install-homebrew.sh
 
 - name: ensure homebrew is updated 
   homebrew:
@@ -18,11 +16,6 @@
     update_homebrew: yes
     upgrade_all: yes
 
-- name: install homebrew packages
-  homebrew:
-    name: "{{ homebrew.packages }}"
-    state: present
-    
 - name: tap casks
   homebrew_tap:
     tap: "{{ homebrew.casks }}"
@@ -33,3 +26,8 @@
     name: "{{ homebrew.applications }}"
     state: present
     accept_external_apps: yes
+
+- name: install homebrew packages
+  homebrew:
+    name: "{{ homebrew.packages }}"
+    state: present
