@@ -1,7 +1,4 @@
 ---
-- name: set files path
-  set_fact:
-    files_path: "{{ role_path }}/files"
 
 - name: link dotfiles
   file:

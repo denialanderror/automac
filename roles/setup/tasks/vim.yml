@@ -2,7 +2,7 @@
 
 - name: link vimrc
   file:
-    src: ".vimrc"
+    src: "{{ files_path }}/.vimrc"
     dest: "$HOME/.vimrc"
     state: link
     force: yes

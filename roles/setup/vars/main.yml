@@ -28,7 +28,6 @@ homebrew:
   applications:
     - adoptopenjdk
     - adoptopenjdk8 
-    - copyclip
     - dashlane
     - docker
     - firefox

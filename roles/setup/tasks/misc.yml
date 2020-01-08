@@ -3,7 +3,7 @@
 
 - name: link git dotfiles
   file:
-    src: ".gitignore_global"
+    src: "{{ files_path }}/.gitignore_global"
     dest: "$HOME/.gitignore_global"
     state: link
     force: yes
