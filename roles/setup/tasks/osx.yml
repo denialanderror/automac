@@ -1,0 +1,47 @@
+---
+
+- name: show status bar in finder
+    domain: com.apple.finder
+    key: ShowStatusBar
+    type: bool
+    value: true
+    state: present
+
+- name: show status bar in finder
+    domain: com.apple.finder
+    key: ShowPathBar
+    type: bool
+    value: true
+    state: present
+
+- name: do the same as the key is duplicated (spelling mistake)
+    domain: com.apple.finder
+    key: ShowPathbar
+    type: bool
+    value: true
+    state: present
+
+- name: stop spaces rearranging
+    domain: -g com.apple.mouse.dock 
+    key: mru-spaces
+    type: bool
+    value: false
+    state: present
+
+- name: enable right click
+    domain: com.apple.driver.AppleBluetoothMultitouch.mouse
+    key: MouseButtonMode
+    type: string
+    value: TwoButton
+    state: present
+
+
+- name: increase mouse speed
+    domain: -g com.apple.mouse.scaling
+    type: int
+    value: 4
+    state: present
+
+- name: make Library directory visible
+    command: chflags nohidden ~/Library
+

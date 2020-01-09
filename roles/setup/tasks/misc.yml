@@ -1,6 +1,22 @@
 ---
 # miscellaneous configuration
 
+- name: link iterm config
+  file:
+    src: "{{ files_path }}/com.googlecode.iterm2.plist"
+    dest: "$HOME/Library/Preferences/com.googlecode.iterm2.plist"
+    state: link
+    force: yes
+    follow: false
+
+- name: link karabiner config
+  file:
+    src: "{{ files_path }}/karabiner.json"
+    dest: "$HOME/.config/karabiner/karabiner.json"
+    state: link
+    force: yes
+    follow: false
+
 - name: link git dotfiles
   file:
     src: "{{ files_path }}/.gitignore_global"

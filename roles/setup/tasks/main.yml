@@ -16,5 +16,5 @@
 - name: miscellaneous configuration
   import_tasks: misc.yml
 
-# - name: osx defaults
-#   import_tasks: osx.yml
+- name: osx defaults
+  import_tasks: osx.yml

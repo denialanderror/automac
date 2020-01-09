@@ -1,0 +1,1724 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-hddDYPWR0gBbqLRmIZP242WMEiYsVkYI2UCYCVUHB4h5DhD2cbtFJYG+HPh21dZGb+sbgDHxQBNJCBq7YbmlBQ==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-02a3eaa24db2bd1ed9b64450595fc2cf.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-virfO4ceMMzCPFi08e0bL1pXMXF3ykBOdO+cOkFu6hqjl/ympiylGiiYhsaumnY+oVIHNqPwmxmEeCcYGWZwlA==" rel="stylesheet" href="https://github.githubassets.com/assets/site-889ba3896abfbcb8742b625020c44299.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-BfV7LY4o6qSpcN6OiMpmxBac/CKavxIuxePTT5dMcVRqwEV35Z20jQ/d8TMKZ/ifOgIlBZQOluqWOBUzQD9Dnw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-e4ca0adaf3606c0d0b3e861c62b7733c.css" />
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Karabiner Elements config · GitHub</title>
+    <meta name="description" content="Karabiner Elements config. GitHub Gist: instantly share code, notes, and snippets.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch-gist.xml" title="Gist">
+  <link rel="fluid-icon" href="https://gist.github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    <meta name="twitter:image:src" content="https://github.githubassets.com/images/modules/gists/gist-og-image.png" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="Karabiner Elements config" /><meta name="twitter:description" content="Karabiner Elements config. GitHub Gist: instantly share code, notes, and snippets." />
+    <meta property="og:image" content="https://github.githubassets.com/images/modules/gists/gist-og-image.png" /><meta property="og:site_name" content="Gist" /><meta property="og:type" content="article" /><meta property="og:title" content="Karabiner Elements config" /><meta property="og:url" content="https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182" /><meta property="og:description" content="Karabiner Elements config. GitHub Gist: instantly share code, notes, and snippets." /><meta property="article:author" content="262588213843476" /><meta property="article:publisher" content="262588213843476" />
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+  
+
+    <meta name="request-id" content="1739:0E47:46CDE4:8D31F0:5E15FFFA" data-pjax-transient>
+
+
+
+  
+
+  <meta name="selected-link" value="gist_code" data-pjax-transient>
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+    <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="gist" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="1739:0E47:46CDE4:8D31F0:5E15FFFA" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" /><meta name="octolytics-dimension-visitor_id" content="667905297718050810" />
+
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;gist-id&gt;" data-pjax-transient="true" /><meta name="octolytics-location" content="/&lt;user-name&gt;/&lt;gist-id&gt;" data-pjax-transient="true" />
+
+
+
+    <meta name="google-analytics" content="UA-3769691-4">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+    <meta name="octolytics-dimension-public" content="false" /><meta name="octolytics-dimension-gist_id" content="89959598" /><meta name="octolytics-dimension-gist_name" content="2a7f2a0193e70705be235f3d801f8182" /><meta name="octolytics-dimension-anonymous" content="false" /><meta name="octolytics-dimension-owner_id" content="8293080" /><meta name="octolytics-dimension-owner_login" content="denialanderror" /><meta name="octolytics-dimension-forked" content="false" />
+
+  <meta
+    class="js-ga-set"
+    name="dimension5"
+    content="secret"
+  >
+  <meta
+    class="js-ga-set"
+    name="dimension6"
+    content="owned"
+  >
+  <meta
+    class="js-ga-set"
+    name="dimension7"
+    content="json"
+  >
+
+
+      <meta name="hostname" content="gist.github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="gist.github.com">
+
+      <meta name="js-proxy-site-detection-payload" content="Njk1YjgyYTZjYmMzNDQ2M2Q5MDk3N2U4MTBlMTgwZWE1Y2ZkMDNjMmZjM2E0YmY3NzQ4ZjFkNDc5ODE3YmM0OXx7InJlbW90ZV9hZGRyZXNzIjoiMTk4LjE3Ni4xMjAuMTgiLCJyZXF1ZXN0X2lkIjoiMTczOTowRTQ3OjQ2Q0RFNDo4RDMxRjA6NUUxNUZGRkEiLCJ0aW1lc3RhbXAiOjE1Nzg1MDAwOTAsImhvc3QiOiJnaXRodWIuY29tIn0=">
+
+    <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS">
+
+    <meta name="html-safe-nonce" content="0a5271801deccc3990ccb73776ebc9766c5e0c57">
+
+  <meta http-equiv="x-pjax-version" content="d81340dbe240c74fe2fda2a3b77d424d">
+  
+
+      <link href="/denialanderror.atom" rel="alternate" title="atom" type="application/atom+xml">
+  <meta name="robots" content="noindex, follow" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-eugfgjBp0ZgIOWm2vVumT2BtsOo+aZto75qwqV3mlYwSC8XIXu6PRH6hh5ms6HN2RbBii0M8cnK9UuJLO3Cyew==" rel="stylesheet" href="https://github.githubassets.com/assets/gist-04c9f30b6b426947b013a993ce8747c8.css" />
+
+
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+
+
+
+
+  </head>
+
+  <body class="logged-out env-production min-width-lg">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <span class="Progress progress-pjax-loader position-fixed width-full js-pjax-loader-bar">
+      <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
+    </span>
+
+    
+    
+    
+
+
+        <div class="Header" role="banner" >
+  <div class="Header-item">
+    <a class="Header-link" data-hotkey="g d" aria-label="Gist Homepage" href="/">
+  <svg class="octicon octicon-mark-github v-align-middle d-none" height="24" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+  <svg height="24" class="octicon octicon-logo-github v-align-middle" viewBox="0 0 45 16" version="1.1" width="67" aria-hidden="true"><path fill-rule="evenodd" d="M18.53 12.03h-.02c.009 0 .015.01.024.011h.006l-.01-.01zm.004.011c-.093.001-.327.05-.574.05-.78 0-1.05-.36-1.05-.83V8.13h1.59c.09 0 .16-.08.16-.19v-1.7c0-.09-.08-.17-.16-.17h-1.59V3.96c0-.08-.05-.13-.14-.13h-2.16c-.09 0-.14.05-.14.13v2.17s-1.09.27-1.16.28c-.08.02-.13.09-.13.17v1.36c0 .11.08.19.17.19h1.11v3.28c0 2.44 1.7 2.69 2.86 2.69.53 0 1.17-.17 1.27-.22.06-.02.09-.09.09-.16v-1.5a.177.177 0 00-.146-.18zM42.23 9.84c0-1.81-.73-2.05-1.5-1.97-.6.04-1.08.34-1.08.34v3.52s.49.34 1.22.36c1.03.03 1.36-.34 1.36-2.25zm2.43-.16c0 3.43-1.11 4.41-3.05 4.41-1.64 0-2.52-.83-2.52-.83s-.04.46-.09.52c-.03.06-.08.08-.14.08h-1.48c-.1 0-.19-.08-.19-.17l.02-11.11c0-.09.08-.17.17-.17h2.13c.09 0 .17.08.17.17v3.77s.82-.53 2.02-.53l-.01-.02c1.2 0 2.97.45 2.97 3.88zm-8.72-3.61h-2.1c-.11 0-.17.08-.17.19v5.44s-.55.39-1.3.39-.97-.34-.97-1.09V6.25c0-.09-.08-.17-.17-.17h-2.14c-.09 0-.17.08-.17.17v5.11c0 2.2 1.23 2.75 2.92 2.75 1.39 0 2.52-.77 2.52-.77s.05.39.08.45c.02.05.09.09.16.09h1.34c.11 0 .17-.08.17-.17l.02-7.47c0-.09-.08-.17-.19-.17zm-23.7-.01h-2.13c-.09 0-.17.09-.17.2v7.34c0 .2.13.27.3.27h1.92c.2 0 .25-.09.25-.27V6.23c0-.09-.08-.17-.17-.17zm-1.05-3.38c-.77 0-1.38.61-1.38 1.38 0 .77.61 1.38 1.38 1.38.75 0 1.36-.61 1.36-1.38 0-.77-.61-1.38-1.36-1.38zm16.49-.25h-2.11c-.09 0-.17.08-.17.17v4.09h-3.31V2.6c0-.09-.08-.17-.17-.17h-2.13c-.09 0-.17.08-.17.17v11.11c0 .09.09.17.17.17h2.13c.09 0 .17-.08.17-.17V8.96h3.31l-.02 4.75c0 .09.08.17.17.17h2.13c.09 0 .17-.08.17-.17V2.6c0-.09-.08-.17-.17-.17zM8.81 7.35v5.74c0 .04-.01.11-.06.13 0 0-1.25.89-3.31.89-2.49 0-5.44-.78-5.44-5.92S2.58 1.99 5.1 2c2.18 0 3.06.49 3.2.58.04.05.06.09.06.14L7.94 4.5c0 .09-.09.2-.2.17-.36-.11-.9-.33-2.17-.33-1.47 0-3.05.42-3.05 3.73s1.5 3.7 2.58 3.7c.92 0 1.25-.11 1.25-.11v-2.3H4.88c-.11 0-.19-.08-.19-.17V7.35c0-.09.08-.17.19-.17h3.74c.11 0 .19.08.19.17z"/></svg>
+  <svg height="24" class="octicon octicon-logo-gist v-align-middle" viewBox="0 0 25 16" version="1.1" width="37" aria-hidden="true"><path fill-rule="evenodd" d="M4.7 8.73h2.45v4.02c-.55.27-1.64.34-2.53.34-2.56 0-3.47-2.2-3.47-5.05 0-2.85.91-5.06 3.48-5.06 1.28 0 2.06.23 3.28.73V2.66C7.27 2.33 6.25 2 4.63 2 1.13 2 0 4.69 0 8.03c0 3.34 1.11 6.03 4.63 6.03 1.64 0 2.81-.27 3.59-.64V7.73H4.7v1zm6.39 3.72V6.06h-1.05v6.28c0 1.25.58 1.72 1.72 1.72v-.89c-.48 0-.67-.16-.67-.7v-.02zm.25-8.72c0-.44-.33-.78-.78-.78s-.77.34-.77.78.33.78.77.78.78-.34.78-.78zm4.34 5.69c-1.5-.13-1.78-.48-1.78-1.17 0-.77.33-1.34 1.88-1.34 1.05 0 1.66.16 2.27.36v-.94c-.69-.3-1.52-.39-2.25-.39-2.2 0-2.92 1.2-2.92 2.31 0 1.08.47 1.88 2.73 2.08 1.55.13 1.77.63 1.77 1.34 0 .73-.44 1.42-2.06 1.42-1.11 0-1.86-.19-2.33-.36v.94c.5.2 1.58.39 2.33.39 2.38 0 3.14-1.2 3.14-2.41 0-1.28-.53-2.03-2.75-2.23h-.03zm8.58-2.47v-.86h-2.42v-2.5l-1.08.31v2.11l-1.56.44v.48h1.56v5c0 1.53 1.19 2.13 2.5 2.13.19 0 .52-.02.69-.05v-.89c-.19.03-.41.03-.61.03-.97 0-1.5-.39-1.5-1.34V6.94h2.42v.02-.01z"/></svg>
+</a>
+  </div>
+
+
+  <div class="Header-item Header-item--full js-site-search">
+      <div class="header-search mr-3">
+
+<!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative js-quicksearch-form" role="search" aria-label="Site" action="/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+  <div class="header-search-wrapper form-control input-sm js-chromeless-input-container">
+    <input type="text"
+      class="form-control input-sm js-site-search-focus header-search-input"
+      data-hotkey="s,/"
+      name="q"
+      aria-label="Search"
+      placeholder="Search…"
+      autocorrect="off"
+      autocomplete="off"
+      autocapitalize="off">
+  </div>
+
+</form></div>
+
+
+    <nav aria-label="Global" class="d-flex">
+  <a class="Header-link mr-3" data-ga-click="Header, go to all gists, text:all gists" href="/discover">All gists</a>
+
+  <a class="Header-link mr-3" data-ga-click="Header, go to GitHub, text:Back to GitHub" href="https://github.com">Back to GitHub</a>
+
+
+
+</nav>
+
+  </div>
+
+
+
+
+    <div class="Header-item f4 mr-0" role="navigation">
+      <a class="HeaderMenu-link no-underline mr-3" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;gist header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="b9ceb3c5d3ab2edb701d0233585203601667e342d54bfa942e3c245807995558" data-ga-click="Header, sign in" href="https://gist.github.com/auth/github?return_to=https%3A%2F%2Fgist.github.com%2Fdenialanderror%2F2a7f2a0193e70705be235f3d801f8182">
+        Sign&nbsp;in
+</a>        <a class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;gist header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d720ce9bc40a0c75d686c990330991bd41538642e84140c195c02596035bfbe5" data-ga-click="Header, sign up" href="/join?source=header-gist">
+          Sign&nbsp;up
+</a>    </div>
+</div>
+
+
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+    <div id="js-flash-container">
+
+</div>
+
+
+
+  <div class="application-main " data-commit-hovercards-enabled>
+        <div itemscope itemtype="http://schema.org/Code">
+    <main id="gist-pjax-container" class="gist-content-wrapper" data-pjax-container>
+      
+
+
+  <div class="gist-detail-intro gist-banner">
+    <div class="container-lg px-3">
+      <p class="lead">
+        Instantly share code, notes, and snippets.
+      </p>
+    </div>
+  </div>
+
+
+<div class="gisthead pagehead repohead readability-menu experiment-repo-nav pt-3 mb-4">
+  <div class="container-lg px-3">
+    
+  
+
+
+<div class="mb-3 d-flex">
+  <h1 class="secret css-truncate float-none flex-auto width-fit pl-0">
+    <a class="avatar mr-1" data-hovercard-type="user" data-hovercard-url="/users/denialanderror/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/denialanderror"><img src="https://avatars0.githubusercontent.com/u/8293080?s=52&amp;v=4" width="26" height="26" alt="@denialanderror" /></a>
+    <span class="author"><a data-hovercard-type="user" data-hovercard-url="/users/denialanderror/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/denialanderror">denialanderror</a></span><!--
+        --><span class="path-divider">/</span><!--
+        --><strong itemprop="name" class="css-truncate-target" style="max-width: 410px"><a href="/denialanderror/2a7f2a0193e70705be235f3d801f8182">karabiner.json</a></strong>
+      <span class="Label Label--outline v-align-middle">Secret</span>
+
+    <div class="d-block text-small text-gray">
+      Created <time-ago datetime="2018-06-04T10:52:32Z" class="no-wrap">Jun 4, 2018</time-ago>
+    </div>
+  </h1>
+
+  <ul class="pagehead-actions float-none">
+
+
+
+    <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-n" aria-label="You must be signed in to star a gist" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;gist star button&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="3a8359ea3a8143d91d25fedcfe259f719ba4ffeda75059564c47b82348ff203e" href="/login?return_to=https%3A%2F%2Fgist.github.com%2Fdenialanderror%2F2a7f2a0193e70705be235f3d801f8182">
+    <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+    Star
+</a>
+  <a class="social-count" aria-label="0 users starred this gist" href="/denialanderror/2a7f2a0193e70705be235f3d801f8182/stargazers">
+    0
+</a>
+    </li>
+
+      <li>
+          <a class="btn btn-sm btn-with-count tooltipped tooltipped-n" aria-label="You must be signed in to fork a gist" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;gist fork button&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="6ff1000c304134d2eff2fc978b6e7d1ba196cad0e03a63493ef2fa6d7ae23f28" href="/login?return_to=https%3A%2F%2Fgist.github.com%2Fdenialanderror%2F2a7f2a0193e70705be235f3d801f8182">
+    <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+    Fork
+</a>    <span class="social-count">0</span>
+
+      </li>
+  </ul>
+
+</div>
+
+<div class="d-flex">
+  <div class="flex-auto">
+    <nav class="reponav js-repo-nav js-sidenav-container-pjax"
+     aria-label="Gist"
+     data-pjax="#gist-pjax-container">
+
+  <a class="js-selected-navigation-item selected reponav-item" data-pjax="true" data-hotkey="g c" aria-current="page" data-selected-links="gist_code /denialanderror/2a7f2a0193e70705be235f3d801f8182" href="/denialanderror/2a7f2a0193e70705be235f3d801f8182">
+    <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
+    Code
+</a>
+    <a class="js-selected-navigation-item reponav-item" data-pjax="true" data-hotkey="g r" data-selected-links="gist_revisions /denialanderror/2a7f2a0193e70705be235f3d801f8182/revisions" href="/denialanderror/2a7f2a0193e70705be235f3d801f8182/revisions">
+      <svg class="octicon octicon-git-commit" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10.86 7c-.45-1.72-2-3-3.86-3-1.86 0-3.41 1.28-3.86 3H0v2h3.14c.45 1.72 2 3 3.86 3 1.86 0 3.41-1.28 3.86-3H14V7h-3.14zM7 10.2c-1.22 0-2.2-.98-2.2-2.2 0-1.22.98-2.2 2.2-2.2 1.22 0 2.2.98 2.2 2.2 0 1.22-.98 2.2-2.2 2.2z"/></svg>
+      Revisions
+      <span class="Counter">1</span>
+</a>
+
+</nav>
+
+  </div>
+
+  <div class="file-navigation-options" data-multiple>
+
+    <div class="file-navigation-option v-align-middle">
+
+  <div class="input-group">
+    <div class="input-group-button">
+      <details class="details-reset details-overlay select-menu">
+        <summary class="btn btn-sm select-menu-button" data-ga-click="Repository, clone Embed, location:repo overview">
+          <span data-menu-button>Embed</span>
+        </summary>
+        <details-menu
+          class="select-menu-modal position-absolute"
+          data-menu-input="gist-share-url"
+          style="z-index: 99;" aria-label="Clone options">
+          <div class="select-menu-header">
+            <span class="select-menu-title">What would you like to do?</span>
+          </div>
+          <div class="select-menu-list">
+              <button name="button" type="button" class="select-menu-item width-full" aria-checked="true" role="menuitemradio" value="&lt;script src=&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182.js&quot;&gt;&lt;/script&gt;" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;EMBED&quot;,&quot;git_repository_type&quot;:&quot;GIST&quot;,&quot;gist_id&quot;:89959598,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="c320deaec0d7d7b25826c49f6d300e890c1d4cc55c25e3178920258e455df9c1">
+                <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                <div class="select-menu-item-text">
+                  <span class="select-menu-item-heading" data-menu-button-text>
+                    
+                    Embed
+                  </span>
+                    <span class="description">
+                      Embed this gist in your website.
+                    </span>
+                </div>
+</button>              <button name="button" type="button" class="select-menu-item width-full" aria-checked="false" role="menuitemradio" value="https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;SHARE&quot;,&quot;git_repository_type&quot;:&quot;GIST&quot;,&quot;gist_id&quot;:89959598,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e7631a0f90fcfa07c1648e0b10776f2bb153c9d9646c536959737659533ace5a">
+                <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                <div class="select-menu-item-text">
+                  <span class="select-menu-item-heading" data-menu-button-text>
+                    
+                    Share
+                  </span>
+                    <span class="description">
+                      Copy sharable link for this gist.
+                    </span>
+                </div>
+</button>              <button name="button" type="button" class="select-menu-item width-full" aria-checked="false" role="menuitemradio" value="https://gist.github.com/2a7f2a0193e70705be235f3d801f8182.git" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;USE_HTTPS&quot;,&quot;git_repository_type&quot;:&quot;GIST&quot;,&quot;gist_id&quot;:89959598,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="a3cf4e272f2f76f212004480c22eb1c1f7eda84b77177c7ef65ebb9fd510f04a">
+                <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"/></svg>
+                <div class="select-menu-item-text">
+                  <span class="select-menu-item-heading" data-menu-button-text>
+                    Clone via
+                    HTTPS
+                  </span>
+                    <span class="description">
+                      Clone with Git or checkout with SVN using the repository’s web address.
+                    </span>
+                </div>
+</button>          </div>
+          <div class="select-menu-list">
+            <a role="menuitem" class="select-menu-item select-menu-action" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank">
+              <svg class="octicon octicon-question select-menu-item-icon" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 011.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"/></svg>
+              <div class="select-menu-item-text">
+                Learn more about clone URLs
+              </div>
+            </a>
+          </div>
+        </details-menu>
+      </details>
+    </div>
+
+    <input
+      id="gist-share-url"
+      type="text"
+      data-autoselect
+      class="form-control input-monospace input-sm"
+      value="&lt;script src=&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182.js&quot;&gt;&lt;/script&gt;"
+      aria-label="Clone this repository at &lt;script src=&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182.js&quot;&gt;&lt;/script&gt;"
+      readonly>
+
+    <div class="input-group-button">
+      <clipboard-copy for="gist-share-url" aria-label="Copy to clipboard" class="btn btn-sm zeroclipboard-button" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;COPY_URL&quot;,&quot;git_repository_type&quot;:&quot;GIST&quot;,&quot;gist_id&quot;:89959598,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="716a816c6db68a5ff5f7ae62dc0b2774eadec8aa49d1181b959e59c4831fd7bd"><svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"/></svg></clipboard-copy>
+    </div>
+  </div>
+</div>
+
+
+    <div class="file-navigation-option">
+</div>
+
+
+    <div class="file-navigation-option">
+      <a class="btn btn-sm" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;DOWNLOAD_ZIP&quot;,&quot;git_repository_type&quot;:&quot;GIST&quot;,&quot;gist_id&quot;:89959598,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="80b0960eecdc0d1081950c962f6d8f8a28cd1dc904490286479d1cc62be8e105" data-ga-click="Gist, download zip, location:gist overview" href="/denialanderror/2a7f2a0193e70705be235f3d801f8182/archive/edb7c5cdc86475ac4ab1ecc78c440da6888e6cd8.zip">Download ZIP</a>
+    </div>
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+<div class="container-lg px-3 new-discussion-timeline experiment-repo-nav">
+  <div class="repository-content gist-content">
+    
+  <div>
+      <div itemprop="about">
+    Karabiner Elements config
+  </div>
+
+
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-karabiner-json" class="file">
+      <div class="file-header">
+        <div class="file-actions">
+
+          <a class="btn btn-sm " href="/denialanderror/2a7f2a0193e70705be235f3d801f8182/raw/edb7c5cdc86475ac4ab1ecc78c440da6888e6cd8/karabiner.json">Raw</a>
+        </div>
+        <div class="file-info">
+          <span class="icon">
+            <svg class="octicon octicon-gist" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.5 5L10 7.5 7.5 10l-.75-.75L8.5 7.5 6.75 5.75 7.5 5zm-3 0L2 7.5 4.5 10l.75-.75L3.5 7.5l1.75-1.75L4.5 5zM0 13V2c0-.55.45-1 1-1h10c.55 0 1 .45 1 1v11c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1zm1 0h10V2H1v11z"/></svg>
+          </span>
+          <a class="css-truncate" href="#file-karabiner-json">
+            <strong class="user-select-contain gist-blob-name css-truncate-target">
+              karabiner.json
+            </strong>
+          </a>
+        </div>
+      </div>
+    
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-json ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-karabiner-json-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-karabiner-json-LC1" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-karabiner-json-LC2" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>global<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-karabiner-json-LC3" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&quot;</span>check_for_updates_on_startup<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-karabiner-json-LC4" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&quot;</span>show_in_menu_bar<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-karabiner-json-LC5" class="blob-code blob-code-inner js-file-line">        <span class="pl-s"><span class="pl-pds">&quot;</span>show_profile_name_in_menu_bar<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-karabiner-json-LC6" class="blob-code blob-code-inner js-file-line">    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-karabiner-json-LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-s"><span class="pl-pds">&quot;</span>profiles<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-karabiner-json-LC8" class="blob-code blob-code-inner js-file-line">        {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-karabiner-json-LC9" class="blob-code blob-code-inner js-file-line">            <span class="pl-s"><span class="pl-pds">&quot;</span>complex_modifications<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-karabiner-json-LC10" class="blob-code blob-code-inner js-file-line">                <span class="pl-s"><span class="pl-pds">&quot;</span>parameters<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-karabiner-json-LC11" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>basic.simultaneous_threshold_milliseconds<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">50</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-karabiner-json-LC12" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>basic.to_delayed_action_delay_milliseconds<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">500</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-karabiner-json-LC13" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>basic.to_if_alone_timeout_milliseconds<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">1000</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-karabiner-json-LC14" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>basic.to_if_held_down_threshold_milliseconds<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">500</span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-karabiner-json-LC15" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-karabiner-json-LC16" class="blob-code blob-code-inner js-file-line">                <span class="pl-s"><span class="pl-pds">&quot;</span>rules<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-karabiner-json-LC17" class="blob-code blob-code-inner js-file-line">                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-karabiner-json-LC18" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>description<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>Post escape if caps is pressed alone, left_ctrl otherwise<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-karabiner-json-LC19" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>manipulators<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-karabiner-json-LC20" class="blob-code blob-code-inner js-file-line">                            {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-karabiner-json-LC21" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-karabiner-json-LC22" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>caps_lock<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-karabiner-json-LC23" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>modifiers<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-karabiner-json-LC24" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>optional<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-karabiner-json-LC25" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>any<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-karabiner-json-LC26" class="blob-code blob-code-inner js-file-line">                                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-karabiner-json-LC27" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-karabiner-json-LC28" class="blob-code blob-code-inner js-file-line">                                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-karabiner-json-LC29" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-karabiner-json-LC30" class="blob-code blob-code-inner js-file-line">                                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="file-karabiner-json-LC31" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>left_control<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="file-karabiner-json-LC32" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="file-karabiner-json-LC33" class="blob-code blob-code-inner js-file-line">                                ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="file-karabiner-json-LC34" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>to_if_alone<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="file-karabiner-json-LC35" class="blob-code blob-code-inner js-file-line">                                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="file-karabiner-json-LC36" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>escape<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="file-karabiner-json-LC37" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="file-karabiner-json-LC38" class="blob-code blob-code-inner js-file-line">                                ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="file-karabiner-json-LC39" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>basic<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="file-karabiner-json-LC40" class="blob-code blob-code-inner js-file-line">                            }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="file-karabiner-json-LC41" class="blob-code blob-code-inner js-file-line">                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="file-karabiner-json-LC42" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="file-karabiner-json-LC43" class="blob-code blob-code-inner js-file-line">                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="file-karabiner-json-LC44" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>description<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>Map fn + volume controls to fine volume controls (Option + Shift + Volume)<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="file-karabiner-json-LC45" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>manipulators<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="file-karabiner-json-LC46" class="blob-code blob-code-inner js-file-line">                            {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="file-karabiner-json-LC47" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="file-karabiner-json-LC48" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f11<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="file-karabiner-json-LC49" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>modifiers<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="file-karabiner-json-LC50" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>mandatory<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="file-karabiner-json-LC51" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>fn<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="file-karabiner-json-LC52" class="blob-code blob-code-inner js-file-line">                                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="file-karabiner-json-LC53" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="file-karabiner-json-LC54" class="blob-code blob-code-inner js-file-line">                                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="file-karabiner-json-LC55" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="file-karabiner-json-LC56" class="blob-code blob-code-inner js-file-line">                                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="file-karabiner-json-LC57" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>volume_decrement<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="file-karabiner-json-LC58" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>modifiers<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="file-karabiner-json-LC59" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>left_shift<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="file-karabiner-json-LC60" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>left_option<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="file-karabiner-json-LC61" class="blob-code blob-code-inner js-file-line">                                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="file-karabiner-json-LC62" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="file-karabiner-json-LC63" class="blob-code blob-code-inner js-file-line">                                ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="file-karabiner-json-LC64" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>basic<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="file-karabiner-json-LC65" class="blob-code blob-code-inner js-file-line">                            },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="file-karabiner-json-LC66" class="blob-code blob-code-inner js-file-line">                            {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="file-karabiner-json-LC67" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="file-karabiner-json-LC68" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f12<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="file-karabiner-json-LC69" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>modifiers<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="file-karabiner-json-LC70" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>mandatory<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="file-karabiner-json-LC71" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>fn<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="file-karabiner-json-LC72" class="blob-code blob-code-inner js-file-line">                                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="file-karabiner-json-LC73" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="file-karabiner-json-LC74" class="blob-code blob-code-inner js-file-line">                                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="file-karabiner-json-LC75" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="file-karabiner-json-LC76" class="blob-code blob-code-inner js-file-line">                                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="file-karabiner-json-LC77" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>volume_increment<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="file-karabiner-json-LC78" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>modifiers<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="file-karabiner-json-LC79" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>left_shift<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="file-karabiner-json-LC80" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>left_option<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="file-karabiner-json-LC81" class="blob-code blob-code-inner js-file-line">                                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="file-karabiner-json-LC82" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="file-karabiner-json-LC83" class="blob-code blob-code-inner js-file-line">                                ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="file-karabiner-json-LC84" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>basic<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="file-karabiner-json-LC85" class="blob-code blob-code-inner js-file-line">                            }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="file-karabiner-json-LC86" class="blob-code blob-code-inner js-file-line">                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="file-karabiner-json-LC87" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="file-karabiner-json-LC88" class="blob-code blob-code-inner js-file-line">                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="file-karabiner-json-LC89" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>description<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>Quit application by pressing command-q twice<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="file-karabiner-json-LC90" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>manipulators<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="file-karabiner-json-LC91" class="blob-code blob-code-inner js-file-line">                            {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="file-karabiner-json-LC92" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>conditions<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="file-karabiner-json-LC93" class="blob-code blob-code-inner js-file-line">                                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="file-karabiner-json-LC94" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>name<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>command-q<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="file-karabiner-json-LC95" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>variable_if<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="file-karabiner-json-LC96" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>value<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">1</span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="file-karabiner-json-LC97" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="file-karabiner-json-LC98" class="blob-code blob-code-inner js-file-line">                                ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="file-karabiner-json-LC99" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="file-karabiner-json-LC100" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>q<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="file-karabiner-json-LC101" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>modifiers<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="file-karabiner-json-LC102" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>mandatory<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="file-karabiner-json-LC103" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>command<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="file-karabiner-json-LC104" class="blob-code blob-code-inner js-file-line">                                        ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="file-karabiner-json-LC105" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>optional<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="file-karabiner-json-LC106" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>caps_lock<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="file-karabiner-json-LC107" class="blob-code blob-code-inner js-file-line">                                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="file-karabiner-json-LC108" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="file-karabiner-json-LC109" class="blob-code blob-code-inner js-file-line">                                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="file-karabiner-json-LC110" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="file-karabiner-json-LC111" class="blob-code blob-code-inner js-file-line">                                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="file-karabiner-json-LC112" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>q<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="file-karabiner-json-LC113" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>modifiers<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>left_command<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="file-karabiner-json-LC114" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="file-karabiner-json-LC115" class="blob-code blob-code-inner js-file-line">                                ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="file-karabiner-json-LC116" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>basic<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="file-karabiner-json-LC117" class="blob-code blob-code-inner js-file-line">                            },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="file-karabiner-json-LC118" class="blob-code blob-code-inner js-file-line">                            {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="file-karabiner-json-LC119" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="file-karabiner-json-LC120" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>q<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="file-karabiner-json-LC121" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>modifiers<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="file-karabiner-json-LC122" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>mandatory<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="file-karabiner-json-LC123" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>command<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="file-karabiner-json-LC124" class="blob-code blob-code-inner js-file-line">                                        ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="file-karabiner-json-LC125" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>optional<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="file-karabiner-json-LC126" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>caps_lock<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="file-karabiner-json-LC127" class="blob-code blob-code-inner js-file-line">                                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="file-karabiner-json-LC128" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="file-karabiner-json-LC129" class="blob-code blob-code-inner js-file-line">                                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="file-karabiner-json-LC130" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="file-karabiner-json-LC131" class="blob-code blob-code-inner js-file-line">                                    {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="file-karabiner-json-LC132" class="blob-code blob-code-inner js-file-line">                                        <span class="pl-s"><span class="pl-pds">&quot;</span>set_variable<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="file-karabiner-json-LC133" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>name<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>command-q<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="file-karabiner-json-LC134" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>value<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">1</span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="file-karabiner-json-LC135" class="blob-code blob-code-inner js-file-line">                                        }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="file-karabiner-json-LC136" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="file-karabiner-json-LC137" class="blob-code blob-code-inner js-file-line">                                ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="file-karabiner-json-LC138" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>to_delayed_action<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="file-karabiner-json-LC139" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>to_if_canceled<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="file-karabiner-json-LC140" class="blob-code blob-code-inner js-file-line">                                        {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="file-karabiner-json-LC141" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>set_variable<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="file-karabiner-json-LC142" class="blob-code blob-code-inner js-file-line">                                                <span class="pl-s"><span class="pl-pds">&quot;</span>name<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>command-q<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="file-karabiner-json-LC143" class="blob-code blob-code-inner js-file-line">                                                <span class="pl-s"><span class="pl-pds">&quot;</span>value<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">0</span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="file-karabiner-json-LC144" class="blob-code blob-code-inner js-file-line">                                            }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="file-karabiner-json-LC145" class="blob-code blob-code-inner js-file-line">                                        }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="file-karabiner-json-LC146" class="blob-code blob-code-inner js-file-line">                                    ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="file-karabiner-json-LC147" class="blob-code blob-code-inner js-file-line">                                    <span class="pl-s"><span class="pl-pds">&quot;</span>to_if_invoked<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="file-karabiner-json-LC148" class="blob-code blob-code-inner js-file-line">                                        {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="file-karabiner-json-LC149" class="blob-code blob-code-inner js-file-line">                                            <span class="pl-s"><span class="pl-pds">&quot;</span>set_variable<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="file-karabiner-json-LC150" class="blob-code blob-code-inner js-file-line">                                                <span class="pl-s"><span class="pl-pds">&quot;</span>name<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>command-q<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="file-karabiner-json-LC151" class="blob-code blob-code-inner js-file-line">                                                <span class="pl-s"><span class="pl-pds">&quot;</span>value<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">0</span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="file-karabiner-json-LC152" class="blob-code blob-code-inner js-file-line">                                            }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="file-karabiner-json-LC153" class="blob-code blob-code-inner js-file-line">                                        }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L154" class="blob-num js-line-number" data-line-number="154"></td>
+        <td id="file-karabiner-json-LC154" class="blob-code blob-code-inner js-file-line">                                    ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L155" class="blob-num js-line-number" data-line-number="155"></td>
+        <td id="file-karabiner-json-LC155" class="blob-code blob-code-inner js-file-line">                                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L156" class="blob-num js-line-number" data-line-number="156"></td>
+        <td id="file-karabiner-json-LC156" class="blob-code blob-code-inner js-file-line">                                <span class="pl-s"><span class="pl-pds">&quot;</span>type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>basic<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L157" class="blob-num js-line-number" data-line-number="157"></td>
+        <td id="file-karabiner-json-LC157" class="blob-code blob-code-inner js-file-line">                            }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L158" class="blob-num js-line-number" data-line-number="158"></td>
+        <td id="file-karabiner-json-LC158" class="blob-code blob-code-inner js-file-line">                        ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L159" class="blob-num js-line-number" data-line-number="159"></td>
+        <td id="file-karabiner-json-LC159" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L160" class="blob-num js-line-number" data-line-number="160"></td>
+        <td id="file-karabiner-json-LC160" class="blob-code blob-code-inner js-file-line">                ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L161" class="blob-num js-line-number" data-line-number="161"></td>
+        <td id="file-karabiner-json-LC161" class="blob-code blob-code-inner js-file-line">            },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L162" class="blob-num js-line-number" data-line-number="162"></td>
+        <td id="file-karabiner-json-LC162" class="blob-code blob-code-inner js-file-line">            <span class="pl-s"><span class="pl-pds">&quot;</span>devices<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L163" class="blob-num js-line-number" data-line-number="163"></td>
+        <td id="file-karabiner-json-LC163" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L164" class="blob-num js-line-number" data-line-number="164"></td>
+        <td id="file-karabiner-json-LC164" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>disable_built_in_keyboard_if_exists<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L165" class="blob-num js-line-number" data-line-number="165"></td>
+        <td id="file-karabiner-json-LC165" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>fn_function_keys<span class="pl-pds">&quot;</span></span>: [],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L166" class="blob-num js-line-number" data-line-number="166"></td>
+        <td id="file-karabiner-json-LC166" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>identifiers<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L167" class="blob-num js-line-number" data-line-number="167"></td>
+        <td id="file-karabiner-json-LC167" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>is_keyboard<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L168" class="blob-num js-line-number" data-line-number="168"></td>
+        <td id="file-karabiner-json-LC168" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>is_pointing_device<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L169" class="blob-num js-line-number" data-line-number="169"></td>
+        <td id="file-karabiner-json-LC169" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>product_id<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">627</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L170" class="blob-num js-line-number" data-line-number="170"></td>
+        <td id="file-karabiner-json-LC170" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>vendor_id<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">1452</span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L171" class="blob-num js-line-number" data-line-number="171"></td>
+        <td id="file-karabiner-json-LC171" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L172" class="blob-num js-line-number" data-line-number="172"></td>
+        <td id="file-karabiner-json-LC172" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>ignore<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L173" class="blob-num js-line-number" data-line-number="173"></td>
+        <td id="file-karabiner-json-LC173" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>manipulate_caps_lock_led<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L174" class="blob-num js-line-number" data-line-number="174"></td>
+        <td id="file-karabiner-json-LC174" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>simple_modifications<span class="pl-pds">&quot;</span></span>: []</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L175" class="blob-num js-line-number" data-line-number="175"></td>
+        <td id="file-karabiner-json-LC175" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L176" class="blob-num js-line-number" data-line-number="176"></td>
+        <td id="file-karabiner-json-LC176" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L177" class="blob-num js-line-number" data-line-number="177"></td>
+        <td id="file-karabiner-json-LC177" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>disable_built_in_keyboard_if_exists<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L178" class="blob-num js-line-number" data-line-number="178"></td>
+        <td id="file-karabiner-json-LC178" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>fn_function_keys<span class="pl-pds">&quot;</span></span>: [],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L179" class="blob-num js-line-number" data-line-number="179"></td>
+        <td id="file-karabiner-json-LC179" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>identifiers<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L180" class="blob-num js-line-number" data-line-number="180"></td>
+        <td id="file-karabiner-json-LC180" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>is_keyboard<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L181" class="blob-num js-line-number" data-line-number="181"></td>
+        <td id="file-karabiner-json-LC181" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>is_pointing_device<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L182" class="blob-num js-line-number" data-line-number="182"></td>
+        <td id="file-karabiner-json-LC182" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>product_id<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">592</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L183" class="blob-num js-line-number" data-line-number="183"></td>
+        <td id="file-karabiner-json-LC183" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>vendor_id<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">1452</span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L184" class="blob-num js-line-number" data-line-number="184"></td>
+        <td id="file-karabiner-json-LC184" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L185" class="blob-num js-line-number" data-line-number="185"></td>
+        <td id="file-karabiner-json-LC185" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>ignore<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">false</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L186" class="blob-num js-line-number" data-line-number="186"></td>
+        <td id="file-karabiner-json-LC186" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>manipulate_caps_lock_led<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L187" class="blob-num js-line-number" data-line-number="187"></td>
+        <td id="file-karabiner-json-LC187" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>simple_modifications<span class="pl-pds">&quot;</span></span>: []</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L188" class="blob-num js-line-number" data-line-number="188"></td>
+        <td id="file-karabiner-json-LC188" class="blob-code blob-code-inner js-file-line">                }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L189" class="blob-num js-line-number" data-line-number="189"></td>
+        <td id="file-karabiner-json-LC189" class="blob-code blob-code-inner js-file-line">            ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L190" class="blob-num js-line-number" data-line-number="190"></td>
+        <td id="file-karabiner-json-LC190" class="blob-code blob-code-inner js-file-line">            <span class="pl-s"><span class="pl-pds">&quot;</span>fn_function_keys<span class="pl-pds">&quot;</span></span>: [</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L191" class="blob-num js-line-number" data-line-number="191"></td>
+        <td id="file-karabiner-json-LC191" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L192" class="blob-num js-line-number" data-line-number="192"></td>
+        <td id="file-karabiner-json-LC192" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L193" class="blob-num js-line-number" data-line-number="193"></td>
+        <td id="file-karabiner-json-LC193" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f1<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L194" class="blob-num js-line-number" data-line-number="194"></td>
+        <td id="file-karabiner-json-LC194" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L195" class="blob-num js-line-number" data-line-number="195"></td>
+        <td id="file-karabiner-json-LC195" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L196" class="blob-num js-line-number" data-line-number="196"></td>
+        <td id="file-karabiner-json-LC196" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>consumer_key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>display_brightness_decrement<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L197" class="blob-num js-line-number" data-line-number="197"></td>
+        <td id="file-karabiner-json-LC197" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L198" class="blob-num js-line-number" data-line-number="198"></td>
+        <td id="file-karabiner-json-LC198" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L199" class="blob-num js-line-number" data-line-number="199"></td>
+        <td id="file-karabiner-json-LC199" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L200" class="blob-num js-line-number" data-line-number="200"></td>
+        <td id="file-karabiner-json-LC200" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L201" class="blob-num js-line-number" data-line-number="201"></td>
+        <td id="file-karabiner-json-LC201" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f2<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L202" class="blob-num js-line-number" data-line-number="202"></td>
+        <td id="file-karabiner-json-LC202" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L203" class="blob-num js-line-number" data-line-number="203"></td>
+        <td id="file-karabiner-json-LC203" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L204" class="blob-num js-line-number" data-line-number="204"></td>
+        <td id="file-karabiner-json-LC204" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>consumer_key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>display_brightness_increment<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L205" class="blob-num js-line-number" data-line-number="205"></td>
+        <td id="file-karabiner-json-LC205" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L206" class="blob-num js-line-number" data-line-number="206"></td>
+        <td id="file-karabiner-json-LC206" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L207" class="blob-num js-line-number" data-line-number="207"></td>
+        <td id="file-karabiner-json-LC207" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L208" class="blob-num js-line-number" data-line-number="208"></td>
+        <td id="file-karabiner-json-LC208" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L209" class="blob-num js-line-number" data-line-number="209"></td>
+        <td id="file-karabiner-json-LC209" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f3<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L210" class="blob-num js-line-number" data-line-number="210"></td>
+        <td id="file-karabiner-json-LC210" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L211" class="blob-num js-line-number" data-line-number="211"></td>
+        <td id="file-karabiner-json-LC211" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L212" class="blob-num js-line-number" data-line-number="212"></td>
+        <td id="file-karabiner-json-LC212" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>mission_control<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L213" class="blob-num js-line-number" data-line-number="213"></td>
+        <td id="file-karabiner-json-LC213" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L214" class="blob-num js-line-number" data-line-number="214"></td>
+        <td id="file-karabiner-json-LC214" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L215" class="blob-num js-line-number" data-line-number="215"></td>
+        <td id="file-karabiner-json-LC215" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L216" class="blob-num js-line-number" data-line-number="216"></td>
+        <td id="file-karabiner-json-LC216" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L217" class="blob-num js-line-number" data-line-number="217"></td>
+        <td id="file-karabiner-json-LC217" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f4<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L218" class="blob-num js-line-number" data-line-number="218"></td>
+        <td id="file-karabiner-json-LC218" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L219" class="blob-num js-line-number" data-line-number="219"></td>
+        <td id="file-karabiner-json-LC219" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L220" class="blob-num js-line-number" data-line-number="220"></td>
+        <td id="file-karabiner-json-LC220" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>launchpad<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L221" class="blob-num js-line-number" data-line-number="221"></td>
+        <td id="file-karabiner-json-LC221" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L222" class="blob-num js-line-number" data-line-number="222"></td>
+        <td id="file-karabiner-json-LC222" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L223" class="blob-num js-line-number" data-line-number="223"></td>
+        <td id="file-karabiner-json-LC223" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L224" class="blob-num js-line-number" data-line-number="224"></td>
+        <td id="file-karabiner-json-LC224" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L225" class="blob-num js-line-number" data-line-number="225"></td>
+        <td id="file-karabiner-json-LC225" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f5<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L226" class="blob-num js-line-number" data-line-number="226"></td>
+        <td id="file-karabiner-json-LC226" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L227" class="blob-num js-line-number" data-line-number="227"></td>
+        <td id="file-karabiner-json-LC227" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L228" class="blob-num js-line-number" data-line-number="228"></td>
+        <td id="file-karabiner-json-LC228" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>illumination_decrement<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L229" class="blob-num js-line-number" data-line-number="229"></td>
+        <td id="file-karabiner-json-LC229" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L230" class="blob-num js-line-number" data-line-number="230"></td>
+        <td id="file-karabiner-json-LC230" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L231" class="blob-num js-line-number" data-line-number="231"></td>
+        <td id="file-karabiner-json-LC231" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L232" class="blob-num js-line-number" data-line-number="232"></td>
+        <td id="file-karabiner-json-LC232" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L233" class="blob-num js-line-number" data-line-number="233"></td>
+        <td id="file-karabiner-json-LC233" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f6<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L234" class="blob-num js-line-number" data-line-number="234"></td>
+        <td id="file-karabiner-json-LC234" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L235" class="blob-num js-line-number" data-line-number="235"></td>
+        <td id="file-karabiner-json-LC235" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L236" class="blob-num js-line-number" data-line-number="236"></td>
+        <td id="file-karabiner-json-LC236" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>illumination_increment<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L237" class="blob-num js-line-number" data-line-number="237"></td>
+        <td id="file-karabiner-json-LC237" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L238" class="blob-num js-line-number" data-line-number="238"></td>
+        <td id="file-karabiner-json-LC238" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L239" class="blob-num js-line-number" data-line-number="239"></td>
+        <td id="file-karabiner-json-LC239" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L240" class="blob-num js-line-number" data-line-number="240"></td>
+        <td id="file-karabiner-json-LC240" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L241" class="blob-num js-line-number" data-line-number="241"></td>
+        <td id="file-karabiner-json-LC241" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f7<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L242" class="blob-num js-line-number" data-line-number="242"></td>
+        <td id="file-karabiner-json-LC242" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L243" class="blob-num js-line-number" data-line-number="243"></td>
+        <td id="file-karabiner-json-LC243" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L244" class="blob-num js-line-number" data-line-number="244"></td>
+        <td id="file-karabiner-json-LC244" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>consumer_key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>rewind<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L245" class="blob-num js-line-number" data-line-number="245"></td>
+        <td id="file-karabiner-json-LC245" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L246" class="blob-num js-line-number" data-line-number="246"></td>
+        <td id="file-karabiner-json-LC246" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L247" class="blob-num js-line-number" data-line-number="247"></td>
+        <td id="file-karabiner-json-LC247" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L248" class="blob-num js-line-number" data-line-number="248"></td>
+        <td id="file-karabiner-json-LC248" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L249" class="blob-num js-line-number" data-line-number="249"></td>
+        <td id="file-karabiner-json-LC249" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f8<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L250" class="blob-num js-line-number" data-line-number="250"></td>
+        <td id="file-karabiner-json-LC250" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L251" class="blob-num js-line-number" data-line-number="251"></td>
+        <td id="file-karabiner-json-LC251" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L252" class="blob-num js-line-number" data-line-number="252"></td>
+        <td id="file-karabiner-json-LC252" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>consumer_key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>play_or_pause<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L253" class="blob-num js-line-number" data-line-number="253"></td>
+        <td id="file-karabiner-json-LC253" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L254" class="blob-num js-line-number" data-line-number="254"></td>
+        <td id="file-karabiner-json-LC254" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L255" class="blob-num js-line-number" data-line-number="255"></td>
+        <td id="file-karabiner-json-LC255" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L256" class="blob-num js-line-number" data-line-number="256"></td>
+        <td id="file-karabiner-json-LC256" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L257" class="blob-num js-line-number" data-line-number="257"></td>
+        <td id="file-karabiner-json-LC257" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f9<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L258" class="blob-num js-line-number" data-line-number="258"></td>
+        <td id="file-karabiner-json-LC258" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L259" class="blob-num js-line-number" data-line-number="259"></td>
+        <td id="file-karabiner-json-LC259" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L260" class="blob-num js-line-number" data-line-number="260"></td>
+        <td id="file-karabiner-json-LC260" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>consumer_key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>fastforward<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L261" class="blob-num js-line-number" data-line-number="261"></td>
+        <td id="file-karabiner-json-LC261" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L262" class="blob-num js-line-number" data-line-number="262"></td>
+        <td id="file-karabiner-json-LC262" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L263" class="blob-num js-line-number" data-line-number="263"></td>
+        <td id="file-karabiner-json-LC263" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L264" class="blob-num js-line-number" data-line-number="264"></td>
+        <td id="file-karabiner-json-LC264" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L265" class="blob-num js-line-number" data-line-number="265"></td>
+        <td id="file-karabiner-json-LC265" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f10<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L266" class="blob-num js-line-number" data-line-number="266"></td>
+        <td id="file-karabiner-json-LC266" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L267" class="blob-num js-line-number" data-line-number="267"></td>
+        <td id="file-karabiner-json-LC267" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L268" class="blob-num js-line-number" data-line-number="268"></td>
+        <td id="file-karabiner-json-LC268" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>consumer_key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>mute<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L269" class="blob-num js-line-number" data-line-number="269"></td>
+        <td id="file-karabiner-json-LC269" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L270" class="blob-num js-line-number" data-line-number="270"></td>
+        <td id="file-karabiner-json-LC270" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L271" class="blob-num js-line-number" data-line-number="271"></td>
+        <td id="file-karabiner-json-LC271" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L272" class="blob-num js-line-number" data-line-number="272"></td>
+        <td id="file-karabiner-json-LC272" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L273" class="blob-num js-line-number" data-line-number="273"></td>
+        <td id="file-karabiner-json-LC273" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f11<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L274" class="blob-num js-line-number" data-line-number="274"></td>
+        <td id="file-karabiner-json-LC274" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L275" class="blob-num js-line-number" data-line-number="275"></td>
+        <td id="file-karabiner-json-LC275" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L276" class="blob-num js-line-number" data-line-number="276"></td>
+        <td id="file-karabiner-json-LC276" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>consumer_key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>volume_decrement<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L277" class="blob-num js-line-number" data-line-number="277"></td>
+        <td id="file-karabiner-json-LC277" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L278" class="blob-num js-line-number" data-line-number="278"></td>
+        <td id="file-karabiner-json-LC278" class="blob-code blob-code-inner js-file-line">                },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L279" class="blob-num js-line-number" data-line-number="279"></td>
+        <td id="file-karabiner-json-LC279" class="blob-code blob-code-inner js-file-line">                {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L280" class="blob-num js-line-number" data-line-number="280"></td>
+        <td id="file-karabiner-json-LC280" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>from<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L281" class="blob-num js-line-number" data-line-number="281"></td>
+        <td id="file-karabiner-json-LC281" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>f12<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L282" class="blob-num js-line-number" data-line-number="282"></td>
+        <td id="file-karabiner-json-LC282" class="blob-code blob-code-inner js-file-line">                    },</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L283" class="blob-num js-line-number" data-line-number="283"></td>
+        <td id="file-karabiner-json-LC283" class="blob-code blob-code-inner js-file-line">                    <span class="pl-s"><span class="pl-pds">&quot;</span>to<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L284" class="blob-num js-line-number" data-line-number="284"></td>
+        <td id="file-karabiner-json-LC284" class="blob-code blob-code-inner js-file-line">                        <span class="pl-s"><span class="pl-pds">&quot;</span>consumer_key_code<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>volume_increment<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L285" class="blob-num js-line-number" data-line-number="285"></td>
+        <td id="file-karabiner-json-LC285" class="blob-code blob-code-inner js-file-line">                    }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L286" class="blob-num js-line-number" data-line-number="286"></td>
+        <td id="file-karabiner-json-LC286" class="blob-code blob-code-inner js-file-line">                }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L287" class="blob-num js-line-number" data-line-number="287"></td>
+        <td id="file-karabiner-json-LC287" class="blob-code blob-code-inner js-file-line">            ],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L288" class="blob-num js-line-number" data-line-number="288"></td>
+        <td id="file-karabiner-json-LC288" class="blob-code blob-code-inner js-file-line">            <span class="pl-s"><span class="pl-pds">&quot;</span>name<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>Default profile<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L289" class="blob-num js-line-number" data-line-number="289"></td>
+        <td id="file-karabiner-json-LC289" class="blob-code blob-code-inner js-file-line">            <span class="pl-s"><span class="pl-pds">&quot;</span>selected<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">true</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L290" class="blob-num js-line-number" data-line-number="290"></td>
+        <td id="file-karabiner-json-LC290" class="blob-code blob-code-inner js-file-line">            <span class="pl-s"><span class="pl-pds">&quot;</span>simple_modifications<span class="pl-pds">&quot;</span></span>: [],</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L291" class="blob-num js-line-number" data-line-number="291"></td>
+        <td id="file-karabiner-json-LC291" class="blob-code blob-code-inner js-file-line">            <span class="pl-s"><span class="pl-pds">&quot;</span>virtual_hid_keyboard<span class="pl-pds">&quot;</span></span>: {</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L292" class="blob-num js-line-number" data-line-number="292"></td>
+        <td id="file-karabiner-json-LC292" class="blob-code blob-code-inner js-file-line">                <span class="pl-s"><span class="pl-pds">&quot;</span>caps_lock_delay_milliseconds<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">0</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L293" class="blob-num js-line-number" data-line-number="293"></td>
+        <td id="file-karabiner-json-LC293" class="blob-code blob-code-inner js-file-line">                <span class="pl-s"><span class="pl-pds">&quot;</span>country_code<span class="pl-pds">&quot;</span></span>: <span class="pl-c1">0</span>,</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L294" class="blob-num js-line-number" data-line-number="294"></td>
+        <td id="file-karabiner-json-LC294" class="blob-code blob-code-inner js-file-line">                <span class="pl-s"><span class="pl-pds">&quot;</span>keyboard_type<span class="pl-pds">&quot;</span></span>: <span class="pl-s"><span class="pl-pds">&quot;</span>iso<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L295" class="blob-num js-line-number" data-line-number="295"></td>
+        <td id="file-karabiner-json-LC295" class="blob-code blob-code-inner js-file-line">            }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L296" class="blob-num js-line-number" data-line-number="296"></td>
+        <td id="file-karabiner-json-LC296" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L297" class="blob-num js-line-number" data-line-number="297"></td>
+        <td id="file-karabiner-json-LC297" class="blob-code blob-code-inner js-file-line">    ]</td>
+      </tr>
+      <tr>
+        <td id="file-karabiner-json-L298" class="blob-num js-line-number" data-line-number="298"></td>
+        <td id="file-karabiner-json-LC298" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+
+    <a name="comments"></a>
+    <div class="js-quote-selection-container" data-quote-markdown=".js-comment-body">
+      <div class="js-discussion js-socket-channel" data-channel="marked-as-read:gist:89959598">
+        <div class="ml-6 pl-3">
+          
+
+<!-- Rendered timeline since 2018-06-04 03:52:32 -->
+<div id="partial-timeline-marker"
+      class="js-timeline-marker js-updatable-content"
+      data-url="/denialanderror/2a7f2a0193e70705be235f3d801f8182/show_partial?partial=gist%2Ftimeline_marker&amp;since=1528109552"
+      data-last-modified="Mon, 04 Jun 2018 10:52:32 GMT"
+      >
+</div>
+
+        </div>
+
+        <div class="discussion-timeline-actions">
+            
+<div class="flash flash-warn mt-3">
+    <a rel="nofollow" class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;signed out comment&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="df84f1cb331ce137b71d7a93d8ec1893d31d2620dcf9afadf0e41773152d8ed0" href="/join?source=comment-gist">Sign up for free</a>
+    <strong>to join this conversation on GitHub</strong>.
+    Already have an account?
+    <a rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;signed out comment&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;client_id&quot;:null,&quot;originating_request_id&quot;:&quot;1739:0E47:46CDE4:8D31F0:5E15FFFA&quot;,&quot;originating_url&quot;:&quot;https://gist.github.com/denialanderror/2a7f2a0193e70705be235f3d801f8182&quot;,&quot;referrer&quot;:null,&quot;user_id&quot;:null}}" data-hydro-click-hmac="59af4c6da2fc58dafe5a3b5db7a437cba564ae93546d8a4fb9af1635108cd386" href="/login?return_to=https%3A%2F%2Fgist.github.com%2Fdenialanderror%2F2a7f2a0193e70705be235f3d801f8182">Sign in to comment</a>
+</div>
+
+        </div>
+      </div>
+    </div>
+</div>
+  </div>
+</div><!-- /.container -->
+
+    </main>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-lg width-full px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">&copy; 2020 GitHub, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+        <li class="mr-3"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" integrity="sha512-mdrBasYG+QjgS391PSyVkPr06io3gWplCVbPscguetNEHxIEt+mZwCeCxPR9eMNfda6qNuibNFqBo5ak2+O/hg==" type="application/javascript" src="https://github.githubassets.com/assets/compat-bootstrap-99dac16a.js"></script>
+    
+    
+    
+    
+      <script crossorigin="anonymous" async="async" integrity="sha512-NywZWk9rkvep2HRskzzeduFMNBMSLDp65E0P73yrpbgTkntgB7Xq2T3E9YcTVj8YQI8y32F8eN8/4jsgFwMYdg==" type="application/javascript" src="https://github.githubassets.com/assets/gist-bootstrap-372c195a.js"></script>
+
+    
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+  <div aria-live="polite" class="js-global-screen-reader-notice sr-only"></div>
+
+  </body>
+</html>
+

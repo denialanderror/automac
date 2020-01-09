@@ -33,6 +33,7 @@ homebrew:
     - firefox
     - font-fira-code
     - iterm2
+    - karabiner-elements
     - jetbrains-toolbox
     - slack
     - visual-studio-code
