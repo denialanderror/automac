@@ -3,18 +3,30 @@
 - name: set files path
   set_fact:
     files_path: "{{ role_path }}/files"
+  tags:
+    - always
 
 - name: homebrew and application installs
   import_tasks: homebrew.yml
+  tags:
+    - brew
 
 - name: configure zsh
   import_tasks: zsh.yml
+  tags:
+    - zsh
 
 - name: configure vim and install plugins
   import_tasks: vim.yml
+  tags:
+    - vim
 
 - name: miscellaneous configuration
   import_tasks: misc.yml
+  tags:
+    - misc
 
 - name: osx defaults
   import_tasks: osx.yml
+  tags:
+    - osx

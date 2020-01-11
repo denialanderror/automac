@@ -2,6 +2,7 @@ source $HOME/.zsh_plugins
 source $HOME/.zsh_aliases
 
 # load zsh completions
+fpath=(~/.zsh/completion $fpath)
 autoload -U compinit && compinit
 
 # dotfile management

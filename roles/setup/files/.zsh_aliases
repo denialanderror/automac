@@ -28,3 +28,4 @@ alias myip='curl ipecho.net/plain ; echo'
 alias ping='prettyping --nolegend'
 alias run-help=man
 alias which-command=whence
+alias history='history 1' # show full history instead of last 10

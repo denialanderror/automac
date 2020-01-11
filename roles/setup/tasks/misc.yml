@@ -1,4 +1,5 @@
 ---
+
 # miscellaneous configuration
 
 - name: link iterm config
@@ -8,6 +9,14 @@
     state: link
     force: yes
     follow: false
+
+- name: Create karabiner directory if it does not exist
+  file:
+    path: ~/.config/karabiner
+    state: directory
+    mode: '0755'
+    recurse: yes
+
 
 - name: link karabiner config
   file:
