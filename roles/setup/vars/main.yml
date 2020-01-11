@@ -17,6 +17,7 @@ homebrew:
     - nvm
     - prettyping
     - python
+    - the_silver_searcher
     - thefuck
     - tldr
     - tree

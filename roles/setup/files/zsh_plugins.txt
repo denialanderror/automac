@@ -1,5 +1,6 @@
 cal2195/q 
 djui/alias-tips
+mafredri/zsh-async
 Tarrasch/zsh-bd
 tysonwolker/iterm-tab-colors
 
@@ -9,5 +10,4 @@ zsh-users/zsh-completions
 zdharma/history-search-multi-word
 zsh-users/zsh-syntax-highlighting
 
-denysdovhan/spaceship-prompt
-
+sindresorhus/pure
