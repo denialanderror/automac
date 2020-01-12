@@ -8,7 +8,7 @@ let g:is_posix=1 " fix to posix for better syntax highlighting
 set tabstop=4
 set softtabstop=4
 set expandtab " tabs are spaces
-autocmd Filetype yml setlocal ts=2 sw=2 sts=2 " 2 spaces for yml
+autocmd Filetype yaml setlocal ts=2 sw=2 sts=2 " 2 spaces for yml
 
 set backspace=indent,eol,start " make backspace work as expected
 

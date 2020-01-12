@@ -7,7 +7,9 @@ tysonwolker/iterm-tab-colors
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
 
+robbyrussell/oh-my-zsh path:plugins/globalias
+
 zdharma/history-search-multi-word
 zsh-users/zsh-syntax-highlighting
 
-sindresorhus/pure
+romkatv/powerlevel10k

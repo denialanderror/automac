@@ -1,4 +1,5 @@
 # git aliases
+alias g='git'
 alias gcano='git commit -a --amend --no-edit'
 alias gcam='git commit -a -m'
 alias gfu='git commit --all --amend --no-edit && git push --force-with-lease'
@@ -22,10 +23,8 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias cat=bat
-alias config='/usr/bin/git --git-dir=/Users/samjoseph/.cfg/ --work-tree=/Users/samjoseph'
 alias mkdir='mkdir -p'
 alias myip='curl ipecho.net/plain ; echo'
 alias ping='prettyping --nolegend'
-alias run-help=man
-alias which-command=whence
 alias history='history 1' # show full history instead of last 10
+alias pls='sudo $(fc -nl -1)'; # Run the previous command as sudo
