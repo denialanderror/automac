@@ -6,6 +6,7 @@ homebrew:
     - awscli
     - antibody
     - bat
+    - fzf
     - git
     - httpie
     - jq
@@ -32,9 +33,11 @@ homebrew:
     - dashlane
     - docker
     - firefox
-    - font-fira-code
+    - font-hack-nerd-font
+    - google-chrome
     - iterm2
     - karabiner-elements
+    - keepassx
     - jetbrains-toolbox
     - slack
     - visual-studio-code

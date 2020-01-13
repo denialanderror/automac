@@ -31,3 +31,6 @@
   homebrew:
     name: "{{ homebrew.packages }}"
     state: present
+
+- name: install fzf keybindings and fuzzy completion
+  shell: $(brew --prefix)/opt/fzf/install

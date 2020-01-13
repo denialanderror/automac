@@ -24,6 +24,12 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 bindkey "[3~" delete-char
 
+## inverts globalias default behavior to make ctrl-space expand alias 
+bindkey -M emacs "^ " globalias
+bindkey -M viins "^ " globalias
+bindkey -M emacs " " magic-space
+bindkey -M viins " " magic-space
+
 # navi shell widget
 source "$(navi widget zsh)"
 
@@ -31,3 +37,5 @@ eval $(thefuck --alias)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

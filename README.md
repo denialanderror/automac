@@ -10,15 +10,11 @@ $ sudo pip install ansible
 $ ansible-playbook playbook.yml --ask-become-pass
 ```
 
-This does the following:
-- Bundle ZSH plugins for static loading by Antibody
-- Symlink ZSH dotfiles to home
-- Install Homebrew, tap casks, install packages and applications
-- Set iTerm preferences and terminal font
-- Set sensible MacOS defaults and key bindings (with Karabiner Elements)
-- Install Vim plugins and symlink vimrc
-
-And also:
-- Tidy up zshrc, possibly moving application-specific lines into their own aliased file to keep the file clean. Add alias expansion.
-- Include explanations of my setup (e.g. ZSH, Vim) in the readme
-- Remove/archive old dotfiles repo and make this public for all to see
+Tasks:
+-----
+This playbook has the following tasks, which can all be run in isolation by adding `--tag="<tag>"` to the command above:
+- `brew` - Installs/updates Homebrew, installs brew packages and applications via casks. The package list can be found and modified in `roles/setup/vars/main.yml`
+- `zsh` - Bundles ZSH plugins using Antibody, symlinks dotfiles, adds completions, and changes shell to ZSH. Plugins can be found and modified in `roles/setup/files/zsh_plugins.txt`
+- `vim` - Installs Vim plugins using the native Vim plugin manager and symlinks .vimrc. Plugins can be found and modified within the plugin install script in `roles/setup/files/vim_plugin_man.sh`
+- `misc` - Symlinks config for iTerm2, Karabiner Elements and gitignore
+- `osx` - Sets various MacOS defaults
