@@ -7,7 +7,7 @@ source $HOME/.zsh_plugins
 source $HOME/.zsh_aliases
 
 # load zsh completions
-fpath=(~/.zsh/completion $fpath)
+fpath=(~/.zsh/completion /usr/local/share/zsh/site-functions $fpath)
 autoload -U compinit && compinit
 
 # history configuration
@@ -22,6 +22,7 @@ setopt AUTO_CD PUSHD_IGNORE_DUPS
 # terminal/editor configuration
 export VISUAL=vim
 export EDITOR="$VISUAL"
+bindkey -e # ensures vim mode is turned off
 bindkey "[3~" delete-char
 
 ## inverts globalias default behavior to make ctrl-space expand alias 
@@ -37,5 +38,4 @@ eval $(thefuck --alias)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

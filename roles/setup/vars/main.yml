@@ -3,6 +3,7 @@
 homebrew:
   packages:
     - ansible
+    - awless
     - awscli
     - antibody
     - bat
@@ -18,6 +19,8 @@ homebrew:
     - nvm
     - prettyping
     - python
+    - speedtest
+    - terraform
     - the_silver_searcher
     - thefuck
     - tldr
@@ -25,11 +28,12 @@ homebrew:
     - yarn
     - zsh
   casks:
+    - AdoptOpenJDK/openjdk
     - homebrew/cask-fonts
-    - homebrew/cask-versions
+    - wallix/awless
   applications:
-    - adoptopenjdk
     - adoptopenjdk8 
+    - adoptopenjdk11
     - dashlane
     - docker
     - firefox
@@ -37,7 +41,6 @@ homebrew:
     - google-chrome
     - iterm2
     - karabiner-elements
-    - keepassx
     - jetbrains-toolbox
     - slack
     - visual-studio-code
