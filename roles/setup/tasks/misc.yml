@@ -10,7 +10,7 @@
     force: yes
     follow: false
 
-- name: Create karabiner directory if it does not exist
+- name: create karabiner directory if it does not exist
   file:
     path: ~/.config/karabiner
     state: directory
@@ -33,3 +33,8 @@
     state: link
     force: yes
     follow: false
+
+- name: install rust if not already installed
+  command: rustup-init
+  args: 
+      creates: ~/.cargo

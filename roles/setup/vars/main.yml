@@ -19,6 +19,7 @@ homebrew:
     - nvm
     - prettyping
     - python
+    - rustup
     - speedtest
     - terraform
     - the_silver_searcher
@@ -34,6 +35,7 @@ homebrew:
   applications:
     - adoptopenjdk8 
     - adoptopenjdk11
+    - discord
     - dashlane
     - docker
     - firefox

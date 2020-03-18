@@ -7,6 +7,7 @@ let g:is_posix=1 " fix to posix for better syntax highlighting
 " tabs vs spaces
 set tabstop=2
 set softtabstop=2
+set shiftwidth=2
 set expandtab " tabs are spaces
 
 set backspace=indent,eol,start " make backspace work as expected
