@@ -1,13 +1,16 @@
 cal2195/q 
 djui/alias-tips
 mafredri/zsh-async
-Tarrasch/zsh-bd
 tysonwolker/iterm-tab-colors
 
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-completions
 
 robbyrussell/oh-my-zsh path:plugins/globalias
+
+Tarrasch/zsh-bd
+rupa/z
+changyuheng/fz
 
 zdharma/history-search-multi-word
 zsh-users/zsh-syntax-highlighting
