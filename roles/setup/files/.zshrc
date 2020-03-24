@@ -31,9 +31,6 @@ bindkey -M viins "^ " globalias
 bindkey -M emacs " " magic-space
 bindkey -M viins " " magic-space
 
-# navi shell widget
-source "$(navi widget zsh)"
-
 eval $(thefuck --alias)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
