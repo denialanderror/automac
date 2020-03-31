@@ -7,10 +7,12 @@ homebrew:
     - awscli
     - antibody
     - bat
+    - exa
     - fzf
     - git
     - httpie
     - jq
+    - jrnl
     - kubectl
     - maven
     - minikube
@@ -39,6 +41,7 @@ homebrew:
     - docker
     - firefox
     - font-hack-nerd-font
+    - hyper
     - google-chrome
     - iterm2
     - karabiner-elements
