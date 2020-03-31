@@ -12,6 +12,8 @@ set expandtab " tabs are spaces
 
 set backspace=indent,eol,start " make backspace work as expected
 
+set autochdir " open new files in same directory as current buffer
+
 " theming
 colorscheme gruvbox
 set background=dark

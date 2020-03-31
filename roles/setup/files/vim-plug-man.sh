@@ -35,6 +35,12 @@ wait
 ) &
 
 (
+set_group lang
+package https://github.com/rust-lang/rust.vim &
+wait
+) &
+
+(
 set_group colorschemes
 package https://github.com/morhetz/gruvbox &
 wait
