@@ -8,17 +8,24 @@ homebrew:
     - antibody
     - bat
     - exa
+    - fd
     - fzf
+    - gradle
     - git
+    - go
+    - groovy
     - httpie
     - jq
     - jrnl
+    - derailed/k9s/k9s
     - kubectl
     - maven
     - minikube
+    - neovim
     - node
     - nvm
     - prettyping
+    - procs
     - python
     - rustup
     - speedtest
@@ -44,9 +51,16 @@ homebrew:
     - hyper
     - google-chrome
     - iterm2
+    - kap
     - karabiner-elements
+    - keybase
     - jetbrains-toolbox
+    - pingplotter
+    - ngrok
+    - rectangle
     - slack
     - spotify
     - spotmenu
+    - vagrant
+    - virtualbox
     - visual-studio-code

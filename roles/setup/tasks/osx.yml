@@ -47,6 +47,14 @@
     value: 4
     state: present
 
+# fixes Rectangle window snap for iTerm2
+- osx_defaults:
+    domain: defaults write com.googlecode.iterm2 
+    key: DisableWindowSizeSnap 
+    type: integer 
+    value: 1
+    state: present
+
 - name: make Library directory visible
   command: chflags nohidden ~/Library
 

@@ -30,6 +30,9 @@ setopt HIST_BEEP
 # set dirs history and navigation
 setopt AUTO_CD PUSHD_IGNORE_DUPS
 
+# automac configuration
+export AUTOMAC_HOME="$HOME/automac"
+
 # terminal/editor configuration
 export VISUAL=vim
 export EDITOR="$VISUAL"
@@ -42,8 +45,17 @@ bindkey -M viins "^ " globalias
 bindkey -M emacs " " magic-space
 bindkey -M viins " " magic-space
 
-eval $(thefuck --alias)
+# makes z tables look nice
+zstyle ':completion:*' menu select
+
+eval $(thefuck --alias oops)
+
+# add Go tools to path
+ export PATH=$PATH:/usr/local/go/bin:${HOME}/go/bin
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

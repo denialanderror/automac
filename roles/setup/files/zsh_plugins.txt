@@ -9,8 +9,8 @@ zsh-users/zsh-completions
 robbyrussell/oh-my-zsh path:plugins/globalias
 
 Tarrasch/zsh-bd
-rupa/z
 changyuheng/fz
+rupa/z
 
 zdharma/history-search-multi-word
 zsh-users/zsh-syntax-highlighting
