@@ -29,10 +29,13 @@ homebrew:
     - python
     - rustup
     - speedtest
+    - task
+      tasksh
     - terraform
     - the_silver_searcher
     - thefuck
     - tldr
+    - tmux
     - tree
     - yarn
     - zsh
@@ -52,7 +55,6 @@ homebrew:
     - google-chrome
     - iterm2
     - kap
-    - karabiner-elements
     - keybase
     - jetbrains-toolbox
     - pingplotter
