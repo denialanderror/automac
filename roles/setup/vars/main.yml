@@ -7,6 +7,7 @@ homebrew:
     - awscli
     - antibody
     - bat
+    - bottom
     - exa
     - fd
     - fzf
@@ -28,9 +29,9 @@ homebrew:
     - procs
     - python
     - rustup
-    - speedtest
+    - speedtest-cli
     - task
-      tasksh
+    - tasksh
     - terraform
     - the_silver_searcher
     - thefuck
@@ -41,6 +42,7 @@ homebrew:
     - zsh
   casks:
     - AdoptOpenJDK/openjdk
+    - clementtsang/bottom
     - homebrew/cask-fonts
     - wallix/awless
   applications:
