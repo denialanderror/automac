@@ -8,6 +8,7 @@ homebrew:
     - antibody
     - bat
     - bottom
+    - cheat
     - exa
     - fd
     - fzf
