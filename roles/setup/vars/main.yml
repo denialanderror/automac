@@ -42,17 +42,15 @@ homebrew:
     - yarn
     - zsh
   casks:
-    - AdoptOpenJDK/openjdk
     - clementtsang/bottom
     - homebrew/cask-fonts
     - wallix/awless
   applications:
-    - adoptopenjdk8 
-    - adoptopenjdk11
     - discord
     - dashlane
     - docker
     - firefox
+    - flycut
     - font-hack-nerd-font
     - hyper
     - google-chrome

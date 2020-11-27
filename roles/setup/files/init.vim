@@ -45,6 +45,7 @@ colorscheme gruvbox
 set background=dark
 let g:lightline = {'colorscheme': 'jellybeans',}
 set noshowmode " lightline shows the mode in the status bar
+set termguicolors " enable true colour support
 
 " set cursor styling
 let &t_SI = "\<Esc>]50;CursorShape=1\x7"

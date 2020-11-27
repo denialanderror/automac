@@ -51,7 +51,7 @@ zstyle ':completion:*' menu select
 eval $(thefuck --alias oops)
 
 # add Go tools to path
- export PATH=$PATH:/usr/local/go/bin:${HOME}/go/bin
+ export PATH=$PATH:/usr/local/sbin:/usr/local/go/bin:${HOME}/go/bin
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -59,3 +59,7 @@ eval $(thefuck --alias oops)
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/joseph4/.sdkman"
+[[ -s "/Users/joseph4/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/joseph4/.sdkman/bin/sdkman-init.sh"
