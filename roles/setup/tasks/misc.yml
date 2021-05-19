@@ -10,22 +10,6 @@
     force: yes
     follow: false
 
-- name: create karabiner directory if it does not exist
-  file:
-    path: ~/.config/karabiner
-    state: directory
-    mode: '0755'
-    recurse: yes
-
-
-- name: link karabiner config
-  file:
-    src: "{{ files_path }}/karabiner.json"
-    dest: "$HOME/.config/karabiner/karabiner.json"
-    state: link
-    force: yes
-    follow: false
-
 - name: link git dotfiles
   file:
     src: "{{ files_path }}/.gitignore_global"
@@ -34,7 +18,8 @@
     force: yes
     follow: false
 
-- name: install rust if not already installed
-  command: rustup-init
-  args: 
-      creates: ~/.cargo
+# rustup-init now displays menu options
+#- name: install rust if not already installed
+#  command: rustup-init
+#  args: 
+#      creates: ~/.cargo

@@ -1,14 +1,15 @@
 ---
-
 homebrew:
   packages:
     - ansible
+    - antibody
     - awless
     - awscli
-    - antibody
+    - aws-vault
     - bat
     - bottom
     - cheat
+    - ctop
     - exa
     - fd
     - fzf
@@ -39,6 +40,7 @@ homebrew:
     - tldr
     - tmux
     - tree
+    - watch
     - yarn
     - zsh
   casks:
@@ -56,7 +58,6 @@ homebrew:
     - google-chrome
     - iterm2
     - kap
-    - keybase
     - jetbrains-toolbox
     - pingplotter
     - ngrok
@@ -65,5 +66,5 @@ homebrew:
     - spotify
     - spotmenu
     - vagrant
-    - virtualbox
     - visual-studio-code
+    - vnc-viewer

@@ -8,7 +8,7 @@
 
 - name: install homebrew
   when: not homebrew_check.stat.exists
-  script: install-homebrew.sh
+  shell: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 - name: ensure homebrew is updated 
   homebrew:

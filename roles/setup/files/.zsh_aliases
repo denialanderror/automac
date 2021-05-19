@@ -1,19 +1,20 @@
 # git aliases
+function get_main() { git show-ref -q --heads master && echo "master" || echo "main" }
 alias g='git'
 alias gcano='git commit -a --amend --no-edit'
 alias gcam='git commit -a -m'
 alias gfu='git commit --all --amend --no-edit && git push --force-with-lease'
 alias gcb='git checkout -b'
 alias gco='git checkout'
-alias gcom='git checkout master'
+alias gcom='git checkout $(get_main)'
 alias gp='git push'
 alias gpc='git push --set-upstream origin $(git branch --show-current)'
 alias gpf='git push -f'
 alias gpl='git pull'
 alias grh='git reset --hard'
-alias grom='git rebase origin/master'
+alias grom='git rebase origin/$(get_main)'
 alias gst='git status'
-alias gfm='git fetch origin master'
+alias gfm='git fetch origin $(get_main)'
 
 alias zshrc='${=EDITOR} ~/.zshrc'
 

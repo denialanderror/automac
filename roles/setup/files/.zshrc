@@ -34,9 +34,9 @@ setopt AUTO_CD PUSHD_IGNORE_DUPS
 export AUTOMAC_HOME="$HOME/automac"
 
 # terminal/editor configuration
-export VISUAL=vim
+export VISUAL=nvim
 export EDITOR="$VISUAL"
-bindkey -e # ensures vim mode is turned off
+bindkey -e # ensures vim mode is not set
 bindkey "[3~" delete-char
 
 ## inverts globalias default behavior to make ctrl-space expand alias 
@@ -59,7 +59,3 @@ eval $(thefuck --alias oops)
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/joseph4/.sdkman"
-[[ -s "/Users/joseph4/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/joseph4/.sdkman/bin/sdkman-init.sh"

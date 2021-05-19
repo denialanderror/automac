@@ -16,6 +16,8 @@ Plug 'itchyny/lightline.vim'
 Plug 'dense-analysis/ale'
 Plug 'morhetz/gruvbox'
 Plug 'aserebryakov/vim-todo-lists'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'preservim/nerdtree'
 call plug#end()
 
 " auto-install plugins
@@ -57,7 +59,11 @@ set rtp+=/usr/local/opt/fzf
 
 "" neovim specifics
 " leave escape to normal in nvim terminal mode as <Esc>
-:tnoremap <Esc> <C-\><C-n>
+" :tnoremap <Esc> <C-\><C-n>
+
+" NERDTree
+nnoremap <C-n> :NERDTree<CR>
+
 " fix copy bug in iTerm2
 set mouse=
 
