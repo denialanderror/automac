@@ -3,9 +3,7 @@ homebrew:
   packages:
     - ansible
     - antibody
-    - awless
     - awscli
-    - aws-vault
     - bat
     - bottom
     - cheat
@@ -48,6 +46,7 @@ homebrew:
     - homebrew/cask-fonts
     - wallix/awless
   applications:
+    - aws-vault
     - discord
     - dashlane
     - docker
@@ -61,6 +60,7 @@ homebrew:
     - jetbrains-toolbox
     - pingplotter
     - ngrok
+    - notion
     - rectangle
     - slack
     - spotify
