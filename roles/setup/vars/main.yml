@@ -11,9 +11,10 @@ homebrew:
     - exa
     - fd
     - fzf
-    - gradle
     - git
     - go
+    - gping
+    - gradle
     - groovy
     - httpie
     - jq
