@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Tweaking MacOS preferences"
+
 # show status bar in finder
 default write com.apple.finder ShowStatusBar true
 
