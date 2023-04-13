@@ -1,0 +1,62 @@
+# git aliases
+function get_main() { git show-ref -q --heads master && echo "master" || echo "main" }
+alias g='git'
+alias gcano='git commit -a --amend --no-edit'
+alias gcam='git commit -a -m'
+alias gfu='git commit --all --amend --no-edit && git push --force-with-lease'
+alias gcb='git checkout -b'
+alias gco='git checkout'
+alias gcoa='git checkout $(git branch | fzf)'
+alias gcom='git checkout $(get_main)'
+alias gp='git push'
+alias gpc='git push --set-upstream origin $(git branch --show-current)'
+alias gpf='git push -f'
+alias gpl='git pull'
+alias grh='git reset --hard'
+alias grom='git rebase origin/$(get_main)'
+alias gst='git status'
+alias gfm='git fetch origin $(get_main)'
+alias gs='git stash'
+alias gsa='git stash apply'
+alias gd='git branch -D'
+alias gda='git branch -D $(git branch | fzf -m)'
+
+alias zshrc='${=EDITOR} ~/.zshrc'
+
+# better ls with exa
+if type exa > /dev/null 2>&1; then
+  alias ls='exa'
+  alias l='exa'
+  alias la='exa -FaG'
+  alias ll='exa -FlhG'
+fi
+
+# make zsh know about hosts already accessed by SSH
+zstyle -e ':completion:*:(ssh|scp|sftp|rsh|rsync):hosts' hosts 'reply=(${=${${(f)"$(cat {/etc/ssh_,~/.ssh/known_}hosts(|2)(N) /dev/null)"}%%[# ]*}//,/ })'
+
+# vim/neovim aliases
+alias v='vim'
+if type nvim > /dev/null 2>&1; then
+  alias vim='nvim'
+fi
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+if type bat > /dev/null 2>&1; then
+  alias cat=bat
+fi
+
+alias mkdir='mkdir -p'
+alias myip='curl ipecho.net/plain ; echo'
+alias ping='prettyping --nolegend'
+alias history='history 1' # show full history instead of last 10
+alias pls='sudo $(fc -nl -1)' # Run the previous command as sudo
+
+alias jrnl=' jrnl' # prevents jrnl entries ending up in history
+alias automac='ansible-playbook ${AUTOMAC_HOME}/playbook.yml --ask-become-pass'
+
+# MacOS no longer has python2 but still thinks it does
+alias python='/usr/local/bin/python3'
+
