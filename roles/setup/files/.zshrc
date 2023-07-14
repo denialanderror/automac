@@ -51,7 +51,10 @@ zstyle ':completion:*' menu select
 eval $(thefuck --alias oops)
 
 # add Go tools to path
- export PATH=$PATH:/usr/local/sbin:/usr/local/go/bin:${HOME}/go/bin
+export PATH=$PATH:/usr/local/sbin:/usr/local/go/bin:$HOME/go/bin
+
+# add Python to path
+export PATH=$PATH:$HOME/Library/Python/3.8/bin
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -59,3 +62,10 @@ eval $(thefuck --alias oops)
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+export NVM_DIR=~/.nvm
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$HOME/.jenv/bin:$PATH"
+  eval "$(jenv init -)"

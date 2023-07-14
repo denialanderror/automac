@@ -18,6 +18,7 @@ Plug 'morhetz/gruvbox'
 Plug 'aserebryakov/vim-todo-lists'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'preservim/nerdtree'
+Plug 'elixir-editors/vim-elixir'
 call plug#end()
 
 " auto-install plugins
@@ -43,7 +44,7 @@ set backspace=indent,eol,start " make backspace work as expected
 set autochdir " open new files in same directory as current buffer
 
 " theming
-colorscheme gruvbox
+autocmd vimenter * ++nested colorscheme gruvbox
 set background=dark
 let g:lightline = {'colorscheme': 'jellybeans',}
 set noshowmode " lightline shows the mode in the status bar
@@ -63,6 +64,7 @@ set rtp+=/usr/local/opt/fzf
 
 " NERDTree
 nnoremap <C-n> :NERDTree<CR>
+autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " fix copy bug in iTerm2
 set mouse=

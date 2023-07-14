@@ -12,7 +12,7 @@ Tarrasch/zsh-bd
 changyuheng/fz
 rupa/z
 
-zdharma/history-search-multi-word
+z-shell/history-search-multi-word
 zsh-users/zsh-syntax-highlighting
 
 romkatv/powerlevel10k

@@ -51,3 +51,4 @@ alias pls='sudo $(fc -nl -1)' # Run the previous command as sudo
 
 alias jrnl=' jrnl' # prevents jrnl entries ending up in history
 alias automac='ansible-playbook ${AUTOMAC_HOME}/playbook.yml --ask-become-pass'
+alias zlj='zellij'
