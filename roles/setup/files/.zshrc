@@ -1,10 +1,12 @@
+# if this isn't sourced first, the python2 to python3 alias is too late to prevent errors
+source $HOME/.zsh_aliases
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 source $HOME/.zsh_plugins
-source $HOME/.zsh_aliases
 
 # load zsh completions
 fpath=(~/.zsh/completion /usr/local/share/zsh/site-functions $fpath)
@@ -17,7 +19,7 @@ SAVEHIST=10000
 
 setopt EXTENDED_HISTORY
 setopt APPEND_HISTORY
-setopt SHARE_HISTORY
+#setopt SHARE_HISTORY
 setopt INC_APPEND_HISTORY
 setopt HIST_EXPIRE_DUPS_FIRST
 setopt HIST_IGNORE_DUPS
@@ -69,3 +71,6 @@ export NVM_DIR=~/.nvm
 
 export PATH="$HOME/.jenv/bin:$PATH"
   eval "$(jenv init -)"
+ 
+eval "$(direnv hook zsh)"
+
