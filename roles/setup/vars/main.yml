@@ -2,32 +2,31 @@
 homebrew:
   packages:
     - antibody
+    - adr-tools
     - awscli
     - bat
     - bluesnooze
     - bottom
-    - cheat
     - ctop
     - exa
     - fd
     - fzf
     - git
     - go
+    - golang-migrate
     - httpie
     - jq
     - jrnl
     - derailed/k9s/k9s
-    - maven
     - neovim
     - node
     - nvm
     - prettyping
     - procs
+    - protoc
     - python
     - rustup
     - speedtest-cli
-    - task
-    - tasksh
     - terraform
     - the_silver_searcher
     - thefuck
@@ -41,6 +40,7 @@ homebrew:
     - clementtsang/bottom
     - homebrew/cask-fonts
   applications:
+    - arc
     - aws-vault
     - discord
     - docker
@@ -49,15 +49,11 @@ homebrew:
     - font-hack-nerd-font
     - google-chrome
     - iterm2
-    - kap
     - jetbrains-toolbox
     - pingplotter
     - ngrok
-    - notion
     - rectangle
     - slack
     - spotify
     - spotmenu
-    - vagrant
     - visual-studio-code
-    - vnc-viewer
