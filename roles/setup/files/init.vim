@@ -64,7 +64,8 @@ set rtp+=/usr/local/opt/fzf
 
 " NERDTree
 nnoremap <C-n> :NERDTree<CR>
-autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd VimEnter * NERDTree " start vim with NERDTree open
+autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif " Close Vim if no buffers are open
 
 " fix copy bug in iTerm2
 set mouse=

@@ -69,8 +69,6 @@ export NVM_DIR=~/.nvm
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export PATH="$HOME/.jenv/bin:$PATH"
-  eval "$(jenv init -)"
- 
 eval "$(direnv hook zsh)"
+
 

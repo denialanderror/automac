@@ -17,6 +17,7 @@ alias gst='git status'
 alias gfm='git fetch origin $(get_main)'
 
 alias zshrc='${=EDITOR} ~/.zshrc'
+alias reload='source ~/.zshrc'
 
 # better ls with exa
 if type exa > /dev/null 2>&1; then
