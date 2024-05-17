@@ -5,8 +5,7 @@ An Ansible playbook to initialise, configure, and update my ideal MacOS dev envi
 To run:
 ------
 ```
-$ sudo easy_install pip
-$ sudo pip install ansible
+$ sudo pip3 install ansible
 $ ansible-playbook playbook.yml --ask-become-pass
 ```
 
