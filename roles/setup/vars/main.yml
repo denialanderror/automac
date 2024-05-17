@@ -1,29 +1,28 @@
 ---
 homebrew:
   packages:
-    - antibody
+    - antidote
     - adr-tools
     - awscli
     - bat
     - bluesnooze
     - bottom
     - ctop
-    - exa
+    - direnv
+    - eza
     - fd
     - fzf
     - git
     - go
     - golang-migrate
-    - httpie
     - jq
     - jrnl
-    - derailed/k9s/k9s
+    - mac-mouse-fix
     - neovim
     - node
     - nvm
     - prettyping
     - procs
-    - protoc
     - python
     - rustup
     - speedtest-cli
@@ -51,6 +50,7 @@ homebrew:
     - iterm2
     - jetbrains-toolbox
     - pingplotter
+    - pop
     - ngrok
     - rectangle
     - slack

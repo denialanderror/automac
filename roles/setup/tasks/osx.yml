@@ -48,12 +48,12 @@
     state: present
 
 # fixes Rectangle window snap for iTerm2
-- osx_defaults:
-    domain: com.googlecode.iterm2 
-    key: DisableWindowSizeSnap 
-    type: integer 
-    value: 1
-    state: present
+#- osx_defaults:
+#    domain: com.googlecode.iterm2 
+#    key: DisableWindowSizeSnap 
+#    type: integer 
+#    value: 1
+#    state: present
     
 # use standard function keys
 - osx_defaults:

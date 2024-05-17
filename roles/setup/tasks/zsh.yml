@@ -11,10 +11,7 @@
     - .zshrc 
     - .zsh_aliases
     - .p10k.zsh
-
-# antibody static loading: https://getantibody.github.io/usage/
-- name: static loading from plugins.txt
-  shell: "antibody bundle < {{ files_path }}/zsh_plugins.txt > $HOME/.zsh_plugins"
+    - .zsh_plugins.txt
 
 - name: Create .zsh directory if it does not exist
   file:

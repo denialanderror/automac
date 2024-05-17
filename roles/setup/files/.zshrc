@@ -1,6 +1,9 @@
 # if this isn't sourced first, the python2 to python3 alias is too late to prevent errors
 source $HOME/.zsh_aliases
 
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
+antidote load
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
